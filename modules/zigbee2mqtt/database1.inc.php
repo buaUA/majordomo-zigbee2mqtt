@@ -2941,6 +2941,19 @@ $par1['extend'] = "";
 $par1['fromZigbee'] = "";
 $par1['toZigbee'] = "";
 SQLInsert('zigbee2mqtt_devices_list', $par1);
+    
+    
+ //ZBMINI 
+$par1['zigbeeModel'] = "01MINIZB";
+$par1['model'] = "ZBMINI";
+$par1['vendor'] = "SONOFF";
+$par1['type'] = "relay";
+$par1['description'] = "Zigbee two way smart switch";
+$par1['supports'] = "";
+$par1['extend'] = "";
+$par1['fromZigbee'] = "";
+$par1['toZigbee'] = "";
+SQLInsert('zigbee2mqtt_devices_list', $par1);
 
 
 
@@ -3127,6 +3140,19 @@ $par1['supports'] = "on/off";
 $par1['fromZigbee'] = "";
 $par1['toZigbee'] = "";
 SQLInsert('zigbee2mqtt_devices_list', $par1);
+    
+    
+ // TS0201
+$par1['zigbeeModel'] = 'TS0201';
+$par1['model'] = "TS0201";
+$par1['type'] = "sensor";
+$par1['vendor'] = "TUYA";
+$par1['description'] = "Temperature & humidity sensor with display";
+$par1['extend'] = "";
+$par1['supports'] = "temperature and humidity";
+$par1['fromZigbee'] = "";
+$par1['toZigbee'] = "";
+SQLInsert('zigbee2mqtt_devices_list', $par1);
 
 
 // GDKES-02TZXD
@@ -3240,9 +3266,9 @@ SQLInsert('zigbee2mqtt_devices_list', $par1);
 
 
 
-// X712A https://www.zigbee2mqtt.io/devices/X711A.html
+// X711A https://www.zigbee2mqtt.io/devices/X711A.html
 $par1['zigbeeModel'] = 'X711A';
-$par1['model'] = "X712A";
+$par1['model'] = "X711A";
 $par1['type'] = "switch";
 $par1['vendor'] = "Lonsonho";
 $par1['description'] = "1 gang switch";
@@ -3264,7 +3290,22 @@ $par1['fromZigbee'] = "";
 $par1['toZigbee'] = "";
 SQLInsert('zigbee2mqtt_devices_list', $par1);
 
-
+    
+    
+// X702A
+$par1['zigbeeModel'] = 'X702A';
+$par1['model'] = "X702A";
+$par1['type'] = "switch";
+$par1['vendor'] = "Lonsonho";
+$par1['description'] = "2 gang switch";
+$par1['extend'] = "";
+$par1['supports'] = "on/off";
+$par1['fromZigbee'] = "";
+$par1['toZigbee'] = "";
+SQLInsert('zigbee2mqtt_devices_list', $par1);
+    
+    
+    
 // X703A
 $par1['zigbeeModel'] = 'X703A';
 $par1['model'] = "X703A";
