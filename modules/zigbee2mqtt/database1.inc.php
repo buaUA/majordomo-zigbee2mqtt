@@ -3179,6 +3179,19 @@ $par1['supports'] = "";
 $par1['fromZigbee'] = "";
 $par1['toZigbee'] = "";
 SQLInsert('zigbee2mqtt_devices_list', $par1);
+    
+    
+//ZM-CSW002-D
+$par1['zigbeeModel'] = 'ZM-CSW002-D';
+$par1['model'] = "TS0002";
+$par1['type'] = "switch";
+$par1['vendor'] = "TUYATEC";
+$par1['description'] = "2 gang switch";
+$par1['extend'] = "";
+$par1['supports'] = "on/off";
+$par1['fromZigbee'] = "";
+$par1['toZigbee'] = "";
+SQLInsert('zigbee2mqtt_devices_list', $par1);
 
 
 
